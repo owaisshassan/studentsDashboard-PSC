@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       #studentdata{
+        display: grid;
+            grid-gap: 10px;
+            margin: auto;
+            width: 50%;
+       }
+       h1{
+           text-align: center;
+       }
+       button{
+           display: block;
+           margin: auto;
+       }
+   </style>
+</head>
+<body>
+    <div id="navbar">
+
+    </div>
+
+    <button> <a href="dashboard.html">Dashbord</a></button>
+    <h1>Add Students data</h1>
+    <form id="studentdata"  onsubmit="storedata()" >
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="course" placeholder="Course">
+        <input type="number" id="unit" placeholder="Unit">
+        <input type="text" id="batch" placeholder="Batch">
+        <input type="text" id="image" placeholder="Img_url">
+        <input type="submit">
+    </form>
+</body>
+</html>
+<script src="index.js">
+
+</script> 
